@@ -1,0 +1,2 @@
+export const incomeCategories = ['stock', 'Salary', 'BusinessIncome','Freelance','Donations','other'];
+export const expenseCategories = ['Food', 'Transportation', 'Housing', 'Salary', 'Insurance', 'Healthcare','Entertainment','Education','Taxes', 'other'];

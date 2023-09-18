@@ -1,0 +1,80 @@
+.filter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.date-range,
+.expense-range {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.formControlStyle {
+  margin-top: 20px !important;
+}
+
+.input-labelstyle {
+  background: white;
+  padding-left: 5px;
+}
+
+
+.date-field,
+.expense-field {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.custom-textfield {
+  flex: 1;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Apply button styles from external CSS */
+.submit-button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px !important;
+  background-color: #0f3c3a !important;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.no-data {
+  text-align: center;
+  margin-top: 20px;
+  color: #f00;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .date-range,
+  .expense-range {
+    flex-direction: column;
+  }
+
+  .date-range .date-field,
+  .expense-range .expense-field {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+/* Additional media queries for smaller screens */
+@media (max-width: 480px) {
+  /* Adjustments for narrower screens */
+  .submit-button1 {
+    max-width: 150px; 
+  }
+}

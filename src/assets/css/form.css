@@ -1,0 +1,261 @@
+/* IncomeExpenseForm.css */
+
+.dashboard-container {
+  padding: 10px 15px;
+  position: relative;
+  margin: 20px -15px;
+}
+
+.dashboard-image {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 120px;
+}
+
+.dashboard-content {
+  text-align: left;
+  padding-left: 175px;
+  padding-top: 22px;
+}
+
+.dashboard-heading {
+  font-size: 28px;
+  line-height: 110%;
+}
+
+.dashboard-text {
+  margin-top: 15px;
+  color: #999;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.dashboard-invite-btn {
+  margin-top: 18px;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  z-index: 99999;
+}
+.popup-button {
+  margin-bottom: 20px;
+}
+.popup-dialog {
+  width: 400px;
+}
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.formControlStyle {
+  margin-top: 20px !important;
+}
+
+.input-labelstyle {
+  background: white;
+  padding-left: 5px;
+}
+
+.custom-category-field {
+  margin-top: 15px;
+}
+.description-field,
+.amount-field,
+.date-field {
+  margin-top: 15px;
+}
+.transaction-table {
+  margin-top: 30px;
+  width: 100%;
+}
+/* Table Styling */
+.transaction-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: left;
+}
+.transaction-table th {
+  background-color: #f5f5f5;
+}
+/* Icons */
+
+.income-color {
+  color: green;
+}
+.expense-color {
+  color: red;
+}
+.icons-green {
+  color: green;
+}
+.icons-blue {
+  color: blue;
+}
+.icons-purple {
+  color: purple;
+}
+
+.icons-orange {
+  color: orange;
+}
+.icons-red {
+  color: red;
+}
+.icons-tomato {
+  color: tomato;
+}
+.icons-pink {
+  color: pink;
+}
+.error {
+  color: red;
+}
+.btn {
+  color: blue;
+}
+.moneyIcon {
+  margin-right: 8px;
+  color: #4caf50;
+}
+.expenseIcon {
+  margin-right: 8px;
+  color: #ffc107;
+}
+.income-cell {
+  color: green !important;
+  display: flex;
+  align-items: center;
+}
+.expense-cell {
+  color: red !important;
+  display: flex;
+  align-items: center;
+}
+.selectPosition  {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnPosition{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.btnActions {
+  margin-right: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btnActions:hover {
+  background-color: blue !important;
+  color: white;
+}
+.btnDelete {
+  transition: background-color 0.3s, color 0.3s;
+}
+.btnDelete:hover {
+  background-color: red !important;
+  color: white;
+}
+/* Add this rule to remove underline from the text */
+.amount-cell {
+  text-decoration: none !important;
+}
+.category-cell {
+  display: "flex";
+  align-items: "center";
+  text-decoration: none;
+}
+.category {
+  margin-right: 8px;
+}
+/* table.css */
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+/* form.css */
+.container {
+  position: relative;
+}
+
+.plus-button {
+  z-index: 999999;
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  width: 100px !important;
+  height: 100px !important;
+  background-color: #4caf50 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50% !important;
+  font-size: 76px !important;
+  cursor: pointer !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s !important;
+}
+
+.plus-button:hover {
+  background-color: #187c1d !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15) !important;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.table-responsive {
+  flex: 1;
+  overflow-x: auto;
+}
+
+/* Media qury for small device*/
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 90%;
+  }
+  .table-container {
+    padding: 0; /* Adjust padding as needed */
+  }
+  .plus-button {
+    width: 80px !important;
+    height: 80px !important;
+    font-size: 64px !important;
+  }
+
+  .plus-button:hover {
+    background-color: #187c1d !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15) !important;
+  }
+}

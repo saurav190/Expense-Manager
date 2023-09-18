@@ -1,0 +1,25 @@
+/* ProfilePage.css */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-paper {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;         
+    border-radius: 10px;
+    }
+  
+  .profile-title {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info {
+    margin: 10px 0;
+  }
+  

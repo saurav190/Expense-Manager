@@ -1,0 +1,101 @@
+.error-page{
+  background-color: #bfcfc7;
+}
+
+.error-bg {
+  background-image: url("https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top:20px;
+}
+
+.error-cont {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.error-title {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.error-medium {
+  font-weight: 500;
+}
+
+.error-large {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.error-subtitle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.error-margin {
+  margin-bottom: 0.5rem;
+}
+
+.error-padding-y {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.error-padding-x {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.error-bg-teal {
+  background-color: teal;
+}
+
+.error-shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.error-box-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 128, 128, 0.5);
+}
+
+.error-hover-shadow:hover {
+  box-shadow: 0 15px 35px -6px rgba(0, 128, 128, 0.4);
+}
+
+.error-text-white {
+  color: white;
+}
+
+.error-semi-bold {
+  font-weight: 600;
+}
+
+.error-rounded {
+  border-radius: 0.5rem;
+}
+
+.error-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #134e4a ;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.error-link:hover {
+  background-color: #00796b;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,82 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  background-color: #bfcfc7;
+  background-image: url('../../assets/images/top-view-finance-business-elements.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .login-container {
+    background-size: 100% auto;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .login-container {
+    background-size: contain;
+  }
+}
+
+/* Media query for extra-large screens */
+@media (min-width: 1201px) {
+  .login-container {
+    background-size: cover;
+  }
+}
+
+.login-form {
+  background-color: #bfcfc7;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 20px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.form-input svg {
+  margin-right: 8px;
+}
+
+.form-input.error {
+  align-items: flex-start; 
+}
+
+.login-button {
+  margin-top: 20px;
+  background-color: #134e4a !important ;
+  color: inherit; 
+}
+
+.login-link-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: #333;
+  }
+}

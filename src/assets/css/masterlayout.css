@@ -1,0 +1,70 @@
+/* MasterLayoutStyles.css */
+
+.root {
+  display: flex;
+}
+
+.appBar {
+  z-index: 1210;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+
+  &.open {
+    margin-left: 240px;
+    width: calc(100% - 240px);
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  }
+}
+
+.drawerPaper {
+  width: 240px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  box-sizing: border-box;
+
+  &.open {
+    width: 240px;
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    overflow-x: hidden;
+  }
+
+  &.closed {
+    transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    overflow-x: hidden;
+    width: calc(56px + 1px);
+
+    @media (min-width: 600px) {
+      width: calc(64px + 1px);
+    }
+  }
+}
+
+.drawerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 8px;
+}
+
+.homeButton {
+  min-height: 48px;
+  justify-content: center;
+  padding-left: 24px;
+  display: block;
+
+  &.open {
+    justify-content: initial;
+  }
+}
+
+.drawerItemText {
+  opacity: 1;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 24px;
+
+  &.mainContentWithHeader {
+    padding-top: 64px;
+  }
+}

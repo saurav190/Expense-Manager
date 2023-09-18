@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #134e4a !important;
+  position: static;
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-title img {
+  width: 40px; 
+  margin-right: 10px; 
+  border-radius: 9999px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.userName {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.user-avatar {
+  margin-left: auto;
+}
